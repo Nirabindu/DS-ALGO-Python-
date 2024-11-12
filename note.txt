@@ -1,0 +1,3 @@
+
+adding and  node at last O(n)
+

@@ -1,0 +1,1 @@
+So, the code will that is inner loo will take n*n times and that will n^2

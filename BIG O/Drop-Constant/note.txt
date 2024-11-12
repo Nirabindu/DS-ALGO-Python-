@@ -1,0 +1,2 @@
+As In code file the time complexity will O(2n) here 2 is constant we can simply discard it so the above code will
+worst case O(n)

@@ -1,0 +1,26 @@
+Omega(best case) , Theta(Average Case) and Omicron(O)(Worst case), can be denoted by, So technically when we talk about Big 0 we are talking about Worst Case Only
+
+O(n) proportional
+
+
+So, In summary
+
+0(1) Excellent
+O(log n) - good
+O(n) - fair
+O(n log n) - bad
+O(n^2), O(2^n), and O(n!) Worst 
+
+
+BIG O List:
+
+    append, pop and end  = o(1)
+    adding or removing from start in a list O(n)
+    inserting t mid or remove  O(n)
+
+    searching by index is O(1)
+    loop through is O(n)
+
+
+big o Cheet sheet
+https://www.bigocheatsheet.com/

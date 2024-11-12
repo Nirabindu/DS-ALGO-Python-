@@ -1,0 +1,4 @@
+if we have a list of l [1,2,3,4,5,6,7,8] 
+- we devide in to two parts [1,2,3,4],[5,6,7,8] and check for the items in each
+- if it present in 1st half, then [1,2,3,4] it will divide in to two half again 
+- lets say [1,2] and again [1] so it will devide in 3 that is 2^3 = 8 that is log2 8 = 3 cutting in half instead iterate through each value
