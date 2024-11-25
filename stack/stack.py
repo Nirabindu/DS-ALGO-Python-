@@ -45,11 +45,12 @@ class Stack:
         temp = self.top
         if self.height == 1:
             self.top = None
-        temp = self.top
-        self.top = self.top.next
-        temp.next = None
-        self.height -=1
-        return temp.value
+        else:
+            temp = self.top
+            self.top = self.top.next
+            temp.next = None
+            self.height -=1
+            return temp.value
             
      
 
@@ -58,11 +59,11 @@ st.print_stack()
 st.push(2)
 st.push(1)
 st.print_stack()
-print(st.height)
-print("popping out")
-print("poped Item is",st.pop())
-st.print_stack()
-print("height",st.height)
-print("poped Item is",st.pop())
-st.print_stack()
-print("height",st.height)
+# print(st.height)
+# print("popping out")
+# print("poped Item is",st.pop())
+# st.print_stack()
+# print("height",st.height)
+# print("poped Item is",st.pop())
+# st.print_stack()
+# print("height",st.height)
